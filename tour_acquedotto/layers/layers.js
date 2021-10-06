@@ -23,7 +23,7 @@ var lyr_tracciato_acquedotto_1 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_tracciato_acquedotto_1, 
                 style: style_tracciato_acquedotto_1,
-                interactive: true,
+                interactive: false,
                 title: '<img src="styles/legend/tracciato_acquedotto_1.png" /> tracciato_acquedotto'
             });
 var format_POI_acquedotto_2 = new ol.format.GeoJSON();
